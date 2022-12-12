@@ -44,7 +44,7 @@ class Ex6
 
 
         Regex regex = new(pattern);
-        MatchCollection matches = regex.Matches(temp);
+        MatchCollection matches = regex.Matches(temp); //
 
         foreach (Match match in matches.Cast<Match>())
         {
